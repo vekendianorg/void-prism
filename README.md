@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/logo.png" alt="Void Prism Logo" width="420"/>
+</p>
+
 # Void Prism
 
 > The first mod pack loader for Hill Climb Racing 2.
