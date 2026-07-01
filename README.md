@@ -29,10 +29,6 @@ Future:
 - Shop
 - Standalone creator application
 
-## Warning
-
-Void Prism modifies the game's content cache. Using modified game files may result in account restrictions. Test accounts are strongly recommended.
-
 ## Repository Layout
 
 ```

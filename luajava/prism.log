@@ -1,0 +1,70 @@
+[08:36:53] ==========================================
+[08:36:53]              PRISM STARTED                
+[08:36:53] ==========================================
+[08:37:43] ==========================================
+[08:37:43]              PRISM STARTED                
+[08:37:43] ==========================================
+[08:37:48] UI: Scanning vehicle pack at /storage/sdcard0/#Vekendian/void-prism/examples/CoolModPack
+[08:37:48] scanVehiclePack: start, packPath=/storage/sdcard0/#Vekendian/void-prism/examples/CoolModPack
+[08:37:48] listFilesRecursive: descending into /storage/sdcard0/#Vekendian/void-prism/examples/CoolModPack/packages/jeep
+[08:37:48] listFilesRecursive: descending into /storage/sdcard0/#Vekendian/void-prism/examples/CoolModPack/packages/jeep/epic
+[08:37:48] listFilesRecursive: descending into /storage/sdcard0/#Vekendian/void-prism/examples/CoolModPack/packages/jeep/epic/jeep_evil_epic
+[08:37:48] listFilesRecursive: found file jeep/epic/jeep_evil_epic/chassis.png
+[08:37:48] listFilesRecursive: found file jeep/epic/jeep_evil_epic/chassis_mask.png
+[08:37:48] listFilesRecursive: found file jeep/epic/jeep_evil_epic/icon.png
+[08:37:48] listFilesRecursive: found file jeep/epic/jeep_evil_epic/icon_mask.png
+[08:37:48] listFilesRecursive: descending into /storage/sdcard0/#Vekendian/void-prism/examples/CoolModPack/packages/jeep/epic/jeep_sketch_epic
+[08:37:48] listFilesRecursive: found file jeep/epic/jeep_sketch_epic/chassis.png
+[08:37:48] listFilesRecursive: found file jeep/epic/jeep_sketch_epic/icon.png
+[08:37:48] scanVehiclePack: done, 6 files found
+[08:37:48] readIndex: start, path=/data/user/0/com.waxmoon.ma.gp/rootfs/data/user/0/com.fingersoft.hcr2/files/content_cache/packages/.packages
+[08:37:48] readIndex: decrypted ok, meta={header_bytes=[B@a45a443, gamestatus=false, iv_pos=74, compressed=false, iv=[B@6858ac0, key=[B@55d44e9}
+[08:37:48] readIndex: read 301887 chars from decrypted file, prefix={ "last_asset_updated": 0, "list_updated
+[08:37:48] readIndex: discarding corrupted header (27 bytes), rebuilding from list_updated
+[08:37:50] readIndex: found 46 package entries, last_asset_updated=nil, list_updated=1782869472
+[08:37:50] readIndex: done, indexed 46 entries
+[08:37:50] UI: Installing pack ID: com.example.coolpack
+[08:37:50] resolveVehiclePackage: jeep -> remote_vehicle_paints_2.zip (via existing asset)
+[08:37:50] installVehiclePack: backup already exists for remote_vehicle_paints_2.zip, not overwriting
+[08:37:50] installVehiclePack: no priority given, defaulting to top of stack: 0
+[08:37:50] resolveVehiclePackage: jeep -> remote_vehicle_paints_2.zip (via existing asset)
+[08:37:50] applyPackToPackage: remote_vehicle_paints_2.zip, 6 files, packId=com.example.coolpack, priority=0
+[08:37:50] resolveBinaryFile: textures/cars/jeep/epic/jeep_evil_epic/chassis.png -> resolved to top layer (com.example.coolpack): true
+[08:37:50] resolveBinaryFile: textures/cars/jeep/epic/jeep_evil_epic/chassis_mask.png -> resolved to top layer (com.example.coolpack): true
+[08:37:50] resolveBinaryFile: textures/cars/jeep/epic/jeep_evil_epic/icon.png -> resolved to top layer (com.example.coolpack): true
+[08:37:50] resolveBinaryFile: textures/cars/jeep/epic/jeep_evil_epic/icon_mask.png -> resolved to top layer (com.example.coolpack): true
+[08:37:51] resolveBinaryFile: textures/cars/jeep/epic/jeep_sketch_epic/chassis.png -> resolved to top layer (com.example.coolpack): true
+[08:37:51] resolveBinaryFile: textures/cars/jeep/epic/jeep_sketch_epic/icon.png -> resolved to top layer (com.example.coolpack): true
+[08:37:51] installVehiclePack: jeep applied into remote_vehicle_paints_2.zip
+[08:37:51] rebuildPackageEntry: remote_vehicle_paints_2.zip -> 692 files (mutated existing entry in place), prism.managed=true
+[08:37:51] writeIndex: encoded 285313 chars (full raw object, not reconstructed)
+[08:37:51] writeIndex: wrote 46 entries to /data/user/0/com.waxmoon.ma.gp/rootfs/data/user/0/com.fingersoft.hcr2/files/content_cache/packages/.packages
+[08:37:51] installVehiclePack: done, 1 package(s) updated and index written
+[08:37:53] UI: Install SUCCESS for com.example.coolpack
+[08:38:33] ==========================================
+[08:38:33]              PRISM STARTED                
+[08:38:33] ==========================================
+[08:38:34] readIndex: start, path=/data/user/0/com.waxmoon.ma.gp/rootfs/data/user/0/com.fingersoft.hcr2/files/content_cache/packages/.packages
+[08:38:34] readIndex: decrypted ok, meta={header_bytes=[B@9b0ce9b, gamestatus=false, iv_pos=113, compressed=false, iv=[B@61d6238, key=[B@55d44e9}
+[08:38:34] readIndex: read 302234 chars from decrypted file, prefix={ "last_asset_updated": 0, "list_updated
+[08:38:34] readIndex: discarding corrupted header (27 bytes), rebuilding from list_updated
+[08:38:37] readIndex: found 46 package entries, last_asset_updated=nil, list_updated=1782869871
+[08:38:37] readIndex: done, indexed 46 entries
+[08:38:40] readIndex: start, path=/data/user/0/com.waxmoon.ma.gp/rootfs/data/user/0/com.fingersoft.hcr2/files/content_cache/packages/.packages
+[08:38:41] readIndex: decrypted ok, meta={header_bytes=[B@2f91bb5, gamestatus=false, iv_pos=113, compressed=false, iv=[B@d80224a, key=[B@55d44e9}
+[08:38:41] readIndex: read 302234 chars from decrypted file, prefix={ "last_asset_updated": 0, "list_updated
+[08:38:41] readIndex: discarding corrupted header (27 bytes), rebuilding from list_updated
+[08:38:43] readIndex: found 46 package entries, last_asset_updated=nil, list_updated=1782869871
+[08:38:43] readIndex: done, indexed 46 entries
+[08:51:51] ==========================================
+[08:51:51]              PRISM STARTED                
+[08:51:51] ==========================================
+[08:51:52] uiUninstallPack: reading index
+[08:51:52] readIndex: start, path=/data/user/0/com.waxmoon.ma.gp/rootfs/data/user/0/com.fingersoft.hcr2/files/content_cache/packages/.packages
+[08:51:52] readIndex: decrypted ok, meta={header_bytes=[B@abf14d2, gamestatus=false, iv_pos=113, compressed=false, iv=[B@82009a3, key=[B@55d44e9}
+[08:51:52] readIndex: read 302234 chars from decrypted file, prefix={ "last_asset_updated": 0, "list_updated
+[08:51:52] readIndex: discarding corrupted header (27 bytes), rebuilding from list_updated
+[08:51:53] readIndex: found 46 package entries, last_asset_updated=nil, list_updated=1782869871
+[08:51:53] readIndex: done, indexed 46 entries
+[08:51:54] uiUninstallPack: scanning index.list for installed packs, #index.list=46
+[08:51:54] uiUninstallPack: found 0 installed pack id(s)

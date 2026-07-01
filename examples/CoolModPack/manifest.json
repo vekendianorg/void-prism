@@ -1,0 +1,9 @@
+{
+  "manifestVersion": 1,
+  "name": "Cool Mod Pack",
+  "id": "com.example.coolpack",
+  "version": "1.0.0",
+  "author": "Author",
+  "description": "Example pack for testing Prism's loader and scanPack walk logic.",
+  "minGameVersion": "1.73.0"
+}
