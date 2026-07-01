@@ -33,12 +33,3 @@ Future:
 - Shop
 - Standalone creator application
 
-## Repository Layout
-
-```
-docs/        Documentation
-examples/    Example mod packs
-luajava/     Lua implementation
-schema/      Manifest schema
-app/         Future creator application
-```
